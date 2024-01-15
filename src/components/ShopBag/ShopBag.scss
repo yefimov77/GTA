@@ -1,0 +1,22 @@
+.shop-bag {
+  max-height: calc(100vh - 325px);
+  
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ADADAD;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #6CBFB6;
+    border-radius: 10px;
+    
+  }
+}

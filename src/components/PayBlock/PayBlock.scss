@@ -1,0 +1,52 @@
+.pay-block   {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+  }
+
+  &__description {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+  }
+
+  &__price {
+    font-weight: 26;
+    color: rgba(64, 135, 127, 1);
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+  }
+}
+
+.resetBag-btn {
+  background-color: transparent;
+  cursor: pointer;
+  background-image: url('/public/img/reset-bag-btn.svg');
+  height: 70px;
+  width: 70px;
+  border: none;
+}
+
+.pay-btn {
+  cursor: pointer;
+  max-height: 70px;
+  max-width: 290px;
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  background-color: rgba(64, 135, 127, 1);
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}

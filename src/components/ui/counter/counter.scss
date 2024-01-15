@@ -1,0 +1,26 @@
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  & button {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0.45);
+    border: none;
+  }
+
+  &__count {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__increment {
+    background-image: url(../../../../public/img/counter/counter-decrement.svg);
+  }
+
+  &__decrement {
+    background-image: url(../../../../public/img/counter/counter-increment.svg);
+  }
+}

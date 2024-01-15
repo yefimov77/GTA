@@ -1,0 +1,27 @@
+.menu__list {
+  display: flex;
+  gap: 16px;
+
+  &-item {
+    max-width: 150px;
+  }
+
+  .menu__list-item_content {
+    width: 100%;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 14px 25px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+  }
+}
+
+.navlink {
+  color: inherit;
+  cursor: pointer;
+}
+
+.isDisabled {
+  pointer-events: none;
+}

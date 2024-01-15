@@ -1,0 +1,43 @@
+.forum {
+
+  &__tittle {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: white;
+  }
+}
+
+.content__box {
+  max-width: 1014px;
+  height: 300px;
+  overflow-y: scroll;
+  
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ADADAD;
+    border-radius: 4px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #6CBFB6;
+    border-radius: 10px;
+    
+  }
+}
+
+.content {
+  margin-bottom: 15px;
+  margin-right: 20px;
+  &__title {
+    font-size: 18px;
+    color: gray;
+  }
+
+  &__text {
+    font-size: 16px;
+    color: white;
+  }
+}

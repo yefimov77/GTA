@@ -1,0 +1,40 @@
+@import './mixins/mixins.scss';
+
+// or this how or, probably via position - absolute implement layer.
+.app {
+  background-image: url(../../public/img/bg.png);
+  @include bgImage;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-image: url(../../public/img/bg-layer.png);
+  @include bgImage;
+}
+
+.container {
+  max-width: 1820px;
+  padding: 0 10px;
+  margin: 0 auto;
+  
+}
+
+.mainChar {
+  background-image: url('/public/img/man-img.png');
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  right: 0;
+  bottom: 0;;
+  width: 100%;
+  height: calc(100vh - 200px);
+  
+  position: absolute;
+
+  @media (max-width: 1000px) {
+    display: none;
+  }
+}
+

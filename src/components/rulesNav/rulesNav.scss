@@ -1,0 +1,21 @@
+.rules__nav{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rules__navLink {
+  cursor: pointer;
+  width: 150px;
+
+  &-btn {
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 13px 0;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+}
